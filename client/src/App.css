@@ -1,0 +1,146 @@
+.locationpin {
+  color: red;
+  z-index: 1;
+}
+.actualdiv {
+  position: relative;
+}
+.card {
+  z-index: 100;
+  min-width: 12rem;
+  max-width: 18rem;
+  min-height: 18rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+label {
+  color: rgb(23, 141, 245);
+  font-size: 14px;
+  border-bottom: 1px solid rgb(23, 141, 245);
+  width: max-content;
+}
+.desc {
+  font-size: 14px;
+  color: black;
+}
+p{
+  color: black;
+}
+.star {
+  color: rgb(255, 217, 0);
+}
+.icon{
+  z-index: 1;
+}
+.popup{
+  z-index: 100;
+}
+
+form {
+  z-index: 100;
+  width: 17rem;
+ max-height: 20rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.block{
+  display: flex;
+  flex-direction: column;
+}
+input ,textarea,select{
+  margin-top: 0.5rem;
+}
+input,select{
+  border: none;
+  border-bottom:1px solid gray ;
+}
+textarea{
+  height: 5rem;
+  resize: none;
+  overflow: auto;
+}
+form label {
+  margin-top: 0.5rem;
+
+  color: tomato;
+  letter-spacing: 3px;
+  font-size: 18px;
+  border-bottom: 1px solid tomato;
+  width: max-content;
+}
+.addbtn{
+  margin-top: 1rem;
+  border: none;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: tomato;
+  color:white;
+  text-transform: capitalize;
+  font-weight: 650;
+}
+.btngroup{
+  min-width: 10rem;
+  position: absolute;
+  right: 0px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+}
+.button1{
+  border: none;
+  padding: 0.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0.5rem;
+}
+.login{
+  background-color: green;
+}
+.logout{
+  background-color: tomato;
+  
+}
+.Register{
+  background-color: rgb(8, 136, 248);
+}
+button{
+  width: inherit;
+  margin-right: 0.5rem;
+}
+
+.pinitem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
+.options{
+    background-color:rgb(249, 251, 252,0.6);
+    max-width: 4rem;
+    max-height: 20rem;
+    min-height: 15rem;
+   border: 1px solid rgb(8, 8, 8);
+   position: relative;
+   border-radius: 5px;
+   padding: 0.5rem 0rem;
+   top: 1rem;
+    margin-left: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.options h5{
+  font-size: 0.6vw;
+}
+

@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 30rem;
+  max-height: 25rem;
+  background-color: white;
+  border: 10px solid rgb(8, 138, 252);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 100000;
+  cursor: pointer;
+  transition:all 0.3s linear;
+
+}
+form {
+  min-width:20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+}
+.block{
+  width: 100%;
+}
+
+.container button {
+  width: 10rem;
+  margin: 1rem auto;
+  border: none;
+  min-height: 2rem;
+  color: white;
+  background-color: rgb(8, 138, 252);
+  border-radius: 1rem;
+}
+input,
+input:focus {
+  height: 2rem;
+  margin:1rem 0rem 1rem 0rem ;
+  background-color: transparent;
+}
+input::after {
+  background-color: transparent;
+}
+.icon {
+  font-size: 4rem;
+}
+.icondiv {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+}
+.cancel{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+  color: red;
+  cursor: pointer;
+}
+.icondiv p {
+  font-size: 20px;
+  color: rgb(8, 137, 250);
+  font-weight: 1000;
+}
+.status{
+    color: rgb(5, 184, 5);
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:700px) {
+  .container {
+  max-width: 30rem;
+  max-height: 25rem;
+  background-color: white;
+  border: 10px solid rgb(8, 138, 252);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 100000;
+}
+}
